@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "versione": "1.0",
+    "nome": "Piano Giugno 2025",
+    "data_inizio": "2025-06-15",
+    "data_fine": null,
+    "attivo": true,
+    "note": "Piano iniziale. Obiettivo: -4/5 kg. Peso partenza: 88 kg. Kcal target giorni allenamento: ~2100-2200. Kcal target giorni riposo: ~1980."
+  },
+
+  "pasti_fissi": {
+    "descrizione": "Presenti ogni giorno Lunedì→Venerdì",
+    "colazione": {
+      "id": "colazione",
+      "nome": "Colazione",
+      "orario": "06:30",
+      "alimenti": [
+        { "nome": "Pane di segale confezionato", "quantita": 50, "unita": "g", "note": "2 fette" },
+        { "nome": "Burro d'arachidi", "quantita": 15, "unita": "g", "note": "1 cucchiaio raso" },
+        { "nome": "Marmellata", "quantita": 10, "unita": "g", "note": "1 cucchiaino" },
+        { "nome": "Arachidi da sgusciare", "quantita": 20, "unita": "g", "note": "" },
+        { "nome": "Frutta (mela Granny Smith / ciliegie / fragole)", "quantita": 150, "unita": "g", "note": "a scelta tra le varianti indicate" }
+      ],
+      "macro": { "kcal": 480, "proteine_g": 14, "carboidrati_g": 55, "grassi_g": 22 }
+    },
+    "post_allenamento": {
+      "id": "post_allenamento",
+      "nome": "Post-Allenamento",
+      "orario": "17:00-19:00",
+      "alimenti": [
+        { "nome": "Yogurt greco 0% Fage / Skyr Arla", "quantita": 200, "unita": "g", "note": "" },
+        { "nome": "Latte parzialmente scremato", "quantita": 150, "unita": "ml", "note": "omettere nei giorni di riposo" },
+        { "nome": "Frutta (come colazione)", "quantita": 120, "unita": "g", "note": "a scelta tra le varianti indicate" }
+      ],
+      "macro": {
+        "con_latte": { "kcal": 290, "proteine_g": 22, "carboidrati_g": 32, "grassi_g": 3 },
+        "senza_latte": { "kcal": 210, "proteine_g": 18, "carboidrati_g": 26, "grassi_g": 2 }
+      },
+      "note": "Ogni giorno Lun→Ven. Con latte nei giorni di allenamento, senza latte nei giorni di riposo/corsa leggera."
+    }
+  },
+
+  "giorni": {
+    "lunedi": {
+      "tipo": "allenamento",
+      "spuntino_lavoro": {
+        "id": "spuntino_lun",
+        "nome": "Spuntino Lavoro",
+        "orario": "10:00-13:00",
+        "alimenti": [
+          { "nome": "Cracker (1 pacchetto)", "quantita": 30, "unita": "g", "note": "" },
+          { "nome": "Frutta secca mista (mandorle + noci + arachidi)", "quantita": 30, "unita": "g", "note": "non superare 30g/die" },
+          { "nome": "Pane di segale", "quantita": 25, "unita": "g", "note": "1 fetta" },
+          { "nome": "Fesa di tacchino al naturale (conf.)", "quantita": 40, "unita": "g", "note": "" }
+        ],
+        "macro": { "kcal": 345, "proteine_g": 20, "carboidrati_g": 36, "grassi_g": 12 }
+      },
+      "cena": {
+        "id": "cena_A",
+        "nome": "Cena A — Carne Bianca",
+        "orario": "20:00+",
+        "alimenti": [
+          { "nome": "Petto di pollo o fesa di tacchino (grigliato/al forno)", "quantita": 200, "unita": "g", "note": "crudo" },
+          { "nome": "Pane di grano duro", "quantita": 80, "unita": "g", "note": "" },
+          { "nome": "Pomodorini ciliegini", "quantita": 180, "unita": "g", "note": "" },
+          { "nome": "Olio EVO", "quantita": 12, "unita": "ml", "note": "1 cucchiaio abbondante" },
+          { "nome": "Aglio + peperoncino", "quantita": null, "unita": "q.b.", "note": "" }
+        ],
+        "macro": { "kcal": 620, "proteine_g": 46, "carboidrati_g": 54, "grassi_g": 16 }
+      }
+    },
+
+    "martedi": {
+      "tipo": "allenamento",
+      "spuntino_lavoro": {
+        "id": "spuntino_mar",
+        "nome": "Spuntino Lavoro",
+        "orario": "10:00-13:00",
+        "alimenti": [
+          { "nome": "Cracker (1 pacchetto)", "quantita": 30, "unita": "g", "note": "" },
+          { "nome": "Frutta secca mista (mandorle + noci + arachidi)", "quantita": 30, "unita": "g", "note": "non superare 30g/die" },
+          { "nome": "Pane di segale", "quantita": 25, "unita": "g", "note": "1 fetta" },
+          { "nome": "Tonno al naturale sgocciolato", "quantita": 80, "unita": "g", "note": "1 scatoletta" }
+        ],
+        "macro": { "kcal": 360, "proteine_g": 24, "carboidrati_g": 35, "grassi_g": 12 }
+      },
+      "cena": {
+        "id": "cena_B",
+        "nome": "Cena B — Piadina Integrale + Uova + Feta",
+        "orario": "20:00+",
+        "alimenti": [
+          { "nome": "Piadina integrale", "quantita": 100, "unita": "g", "note": "" },
+          { "nome": "Uova intere", "quantita": 3, "unita": "uova", "note": "" },
+          { "nome": "Albumi", "quantita": 2, "unita": "albumi", "note": "" },
+          { "nome": "Feta", "quantita": 40, "unita": "g", "note": "" },
+          { "nome": "Olio EVO (cottura)", "quantita": 5, "unita": "ml", "note": "" }
+        ],
+        "macro": { "kcal": 690, "proteine_g": 42, "carboidrati_g": 55, "grassi_g": 25 },
+        "note": "3 uova intere + 2 albumi = stesso apporto proteico di 5 uova intere con meno grassi."
+      }
+    },
+
+    "mercoledi": {
+      "tipo": "riposo",
+      "spuntino_lavoro": {
+        "id": "spuntino_mer",
+        "nome": "Spuntino Lavoro",
+        "orario": "10:00-13:00",
+        "alimenti": [
+          { "nome": "Cracker (1 pacchetto)", "quantita": 30, "unita": "g", "note": "" },
+          { "nome": "Frutta secca mista (mandorle + noci + arachidi)", "quantita": 30, "unita": "g", "note": "non superare 30g/die" },
+          { "nome": "Pane di segale", "quantita": 25, "unita": "g", "note": "1 fetta" },
+          { "nome": "Fesa di tacchino al naturale (conf.)", "quantita": 40, "unita": "g", "note": "" }
+        ],
+        "macro": { "kcal": 345, "proteine_g": 20, "carboidrati_g": 36, "grassi_g": 12 }
+      },
+      "cena": {
+        "id": "cena_C",
+        "nome": "Cena C — Hamburger + Pasta Fredda",
+        "orario": "20:00+",
+        "alimenti": [
+          { "nome": "Hamburger bovino 10-12% grassi", "quantita": 160, "unita": "g", "note": "crudo" },
+          { "nome": "Pasta corta (es. fusilli)", "quantita": 70, "unita": "g", "note": "cruda" },
+          { "nome": "Mozzarella light", "quantita": 60, "unita": "g", "note": "" },
+          { "nome": "Tonno al naturale sgocciolato", "quantita": 80, "unita": "g", "note": "1 scatoletta" },
+          { "nome": "Olio EVO", "quantita": 8, "unita": "ml", "note": "" }
+        ],
+        "macro": { "kcal": 760, "proteine_g": 60, "carboidrati_g": 52, "grassi_g": 28 },
+        "note": "Mozzarella light al posto della normale: -40 kcal e -5g grassi. Pasta condita a freddo."
+      }
+    },
+
+    "giovedi": {
+      "tipo": "allenamento",
+      "spuntino_lavoro": {
+        "id": "spuntino_gio",
+        "nome": "Spuntino Lavoro",
+        "orario": "10:00-13:00",
+        "alimenti": [
+          { "nome": "Cracker (1 pacchetto)", "quantita": 30, "unita": "g", "note": "" },
+          { "nome": "Frutta secca mista (mandorle + noci + arachidi)", "quantita": 30, "unita": "g", "note": "non superare 30g/die" },
+          { "nome": "Pane di segale", "quantita": 25, "unita": "g", "note": "1 fetta" },
+          { "nome": "Tonno al naturale sgocciolato", "quantita": 80, "unita": "g", "note": "1 scatoletta" }
+        ],
+        "macro": { "kcal": 360, "proteine_g": 24, "carboidrati_g": 35, "grassi_g": 12 }
+      },
+      "cena": {
+        "id": "cena_D",
+        "nome": "Cena D — Pasta con Pesce (Salmone)",
+        "orario": "20:00+",
+        "alimenti": [
+          { "nome": "Pasta (spaghetti o linguine)", "quantita": 90, "unita": "g", "note": "cruda" },
+          { "nome": "Salmone fresco/surgelato IQF", "quantita": 160, "unita": "g", "note": "crudo" },
+          { "nome": "Pomodorini ciliegini", "quantita": 120, "unita": "g", "note": "" },
+          { "nome": "Olio EVO", "quantita": 10, "unita": "ml", "note": "" },
+          { "nome": "Aglio + peperoncino", "quantita": null, "unita": "q.b.", "note": "" }
+        ],
+        "macro": { "kcal": 680, "proteine_g": 42, "carboidrati_g": 68, "grassi_g": 20 }
+      }
+    },
+
+    "venerdi": {
+      "tipo": "allenamento",
+      "spuntino_lavoro": {
+        "id": "spuntino_ven",
+        "nome": "Spuntino Lavoro",
+        "orario": "10:00-13:00",
+        "alimenti": [
+          { "nome": "Cracker (1 pacchetto)", "quantita": 30, "unita": "g", "note": "" },
+          { "nome": "Frutta secca mista (mandorle + noci + arachidi)", "quantita": 30, "unita": "g", "note": "non superare 30g/die" },
+          { "nome": "Pane di segale", "quantita": 25, "unita": "g", "note": "1 fetta" },
+          { "nome": "Cottage cheese (es. Vallelata)", "quantita": 80, "unita": "g", "note": "" }
+        ],
+        "macro": { "kcal": 340, "proteine_g": 18, "carboidrati_g": 36, "grassi_g": 12 }
+      },
+      "cena": {
+        "id": "cena_A",
+        "nome": "Cena A — Carne Bianca",
+        "orario": "20:00+",
+        "alimenti": [
+          { "nome": "Petto di pollo o fesa di tacchino (grigliato/al forno)", "quantita": 200, "unita": "g", "note": "crudo" },
+          { "nome": "Pane di grano duro", "quantita": 80, "unita": "g", "note": "" },
+          { "nome": "Pomodorini ciliegini", "quantita": 180, "unita": "g", "note": "" },
+          { "nome": "Olio EVO", "quantita": 12, "unita": "ml", "note": "1 cucchiaio abbondante" },
+          { "nome": "Aglio + peperoncino", "quantita": null, "unita": "q.b.", "note": "" }
+        ],
+        "macro": { "kcal": 620, "proteine_g": 46, "carboidrati_g": 54, "grassi_g": 16 }
+      }
+    },
+
+    "sabato": {
+      "tipo": "libero",
+      "note": "Giorno libero. Nessun pasto fisso. Solo sezione extra disponibile."
+    },
+
+    "domenica": {
+      "tipo": "libero",
+      "note": "Giorno libero. Nessun pasto fisso. Solo sezione extra disponibile."
+    }
+  },
+
+  "note_generali": [
+    "Idratazione: almeno 2 litri/die, 2.5 litri nei giorni di allenamento intenso.",
+    "Frutta secca: non superare 30g/die. Alta densità calorica.",
+    "Se stanchezza eccessiva nelle prime 2 settimane: aggiungere 1 fetta pane di segale a cena.",
+    "Se il peso non scende dopo 3 settimane: ridurre pasta di 10-15g e hamburger di 20g.",
+    "Cena B e Cena C sono le più caloriche: non metterle in giorni consecutivi.",
+    "Latte (150ml p.s.) incluso nel post-allenamento. Omettere nei giorni di riposo."
+  ],
+
+  "totali_giornalieri": {
+    "giorno_allenamento": {
+      "kcal": "2100-2200",
+      "proteine_g": "120-130",
+      "carboidrati_g": "180-190",
+      "grassi_g": 55
+    },
+    "giorno_riposo": {
+      "kcal": 1980,
+      "proteine_g": 117,
+      "carboidrati_g": 175,
+      "grassi_g": 65
+    }
+  }
+}

@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/dnm-mobile/sw.js', { scope: '/dnm-mobile/' })})}
