@@ -5,7 +5,7 @@ import BilanciaPage      from './BilanciaPage';
 import ImpostazioniPage  from './ImpostazioniPage';
 import StoricoPage       from './StoricoPage';
 import { useToast }      from './useToast.jsx';
-import { getLogByDate, saveLogDay, today } from './store';
+import { getLogByDate, saveLogDay, today, APP_VERSION } from './store';
 
 export default function App() {
   const [pagina, setPagina] = useState('giornata');
@@ -28,15 +28,18 @@ export default function App() {
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
         <div>
-          <div style={{
-            fontSize: 18, fontWeight: 800,
-            background: 'var(--gradient-main)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            letterSpacing: '-0.02em',
-          }}>D.N.M.</div>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
+            <div style={{
+              fontSize: 18, fontWeight: 800,
+              background: 'var(--gradient-main)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              letterSpacing: '-0.02em',
+            }}>D.N.M.</div>
+            <span style={{ fontSize: 9, color: 'var(--text-muted)' }}>v{APP_VERSION}</span>
+          </div>
           <div style={{ fontSize: 10, color: 'var(--text-muted)', letterSpacing: '0.08em', marginTop: -2 }}>
-            DEMOSE NA REGOLADA
+            DEMOSE NA MOSSA
           </div>
         </div>
         <div style={{

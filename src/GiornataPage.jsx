@@ -25,6 +25,13 @@ export default function GiornataPage({ onNavigate, showToast }) {
     setLogDay(log);
   }, []);
 
+  // Autosave: persiste logDay su localStorage ad ogni modifica
+  // Evita che la navigazione verso Bilancia cancelli i dati non ancora inviati
+  useEffect(() => {
+    if (!dataOggi) return;
+    saveLogDay(dataOggi, logDay);
+  }, [logDay, dataOggi]);
+
   const giornoData = piano?.giorni?.[dayKey];
   const isLibero = !giornoData || giornoData.tipo === 'libero';
   const isWeekend = dayKey === 'sabato' || dayKey === 'domenica';
